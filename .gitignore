@@ -45,7 +45,7 @@ Thumbs.db
 
 # Applications
 *.app
-*.exe
+#*.exe
 *.war
 
 # Large media files
@@ -55,5 +55,3 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-
-.DS_Store
