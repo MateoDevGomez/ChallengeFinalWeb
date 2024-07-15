@@ -10,9 +10,9 @@ complicaron la obtención de información. Además, se requirieron validaciones 
 integridad del flujo de trabajo. Para abordar estos desafíos, se diseñó una Task específica para gestionar 
 estas situaciones de manera ordenada.
 
--Fue clave comprender que el uso de las Questions es comparable con las aserciones usadas en PageObject. 
-Esta comprensión hizo posible la validación de ciertos componentes necesarios para que el flujo se cumpla 
-adecuadamente.
+-Fue clave comprender que el uso de las Questions en el patrón Screenplay es comparable con las aserciones usadas 
+en PageObject. Esta comprensión facilitó la validación de ciertos componentes necesarios para asegurar que el flujo
+de la prueba se ejecute adecuadamente.
 
 - La generación de reportes representó una guía importante para poder verificar y capturar evidencias de cada paso.
 Además, el patrón Screenplay hace que los reportes sean mucho más comprensibles para cualquier miembro del equipo, 
