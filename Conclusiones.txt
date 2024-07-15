@@ -9,3 +9,11 @@ la generación de pruebas.
 complicaron la obtención de información. Además, se requirieron validaciones más robustas para garantizar la 
 integridad del flujo de trabajo. Para abordar estos desafíos, se diseñó una Task específica para gestionar 
 estas situaciones de manera ordenada.
+
+-Fue clave comprender que el uso de las Questions es comparable con las aserciones usadas en PageObject. 
+Esta comprensión hizo posible la validación de ciertos componentes necesarios para que el flujo se cumpla 
+adecuadamente.
+
+- La generación de reportes representó una guía importante para poder verificar y capturar evidencias de cada paso.
+Además, el patrón Screenplay hace que los reportes sean mucho más comprensibles para cualquier miembro del equipo, 
+ya que se encuentran en un lenguaje más natural.
