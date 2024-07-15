@@ -1,0 +1,5 @@
+Conclusiones
+
+- Durante la adopción del patrón Screenplay, se enfrentaron desafíos debido a la limitada práctica previa, aunque las bases en Page Object facilitaron la finalización del proyecto. A medida que avanzaba el desarrollo, se destacó la escalabilidad del patrón Screenplay y cómo la modularidad contribuye significativamente a la generación de pruebas.
+
+- A lo largo del proyecto, surgieron varios problemas, como la gestión de alertas, que al no ser elementos HTML, complicaron la obtención de información. Además, se requirieron validaciones más robustas para garantizar la integridad del flujo de trabajo. Para abordar estos desafíos, se diseñó una Task específica para gestionar estas situaciones de manera ordenada.
