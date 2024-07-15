@@ -1,6 +1,8 @@
 package com.example.stepdefinitions;
 
 import com.example.questions.CartQuestion;
+import com.example.questions.CompletePurchase;
+import com.example.questions.FormQuestion;
 import com.example.tasks.*;
 import com.example.userinterfaces.StorePage;
 import com.example.userinterfaces.CarritoPage;
@@ -62,8 +64,8 @@ public class StoreStepdefs {
         screenShot();
     }
 
-    @And("agregar el segundo producto {string} llamado")
-    public void agregarElSegundoProductoLlamado(String arg0) {
+    @And("agrega el segundo producto {string} al carrito")
+    public void agregarElSegundoProductoAlCarrito(String arg0) {
         theActorInTheSpotlight().attemptsTo(
                 AddToCart.withTarget(StorePage.IPHONE_REF),
                 AcceptAlert.accept(),
@@ -80,7 +82,7 @@ public class StoreStepdefs {
     }
 
 
-    @Then("compruebo que el producto {string} se haya agregado al carrito")
+    @Then("comprueba que el producto {string} se haya agregado al carrito")
     public void comprueboQueElProductoPRODSeHayaAgregadoAlCarrito(String prod) {
         theActorInTheSpotlight().should(
                 seeThat(CartQuestion.withName(prod), equalTo(true))
@@ -93,6 +95,11 @@ public class StoreStepdefs {
         theActorInTheSpotlight().attemptsTo(
                 ClickOnElement.onTarget(CarritoPage.PLACE_ORDER_BTN)
         );
+
+        theActorInTheSpotlight().should(
+                seeThat("El título del Form es visible", FormQuestion.titleForm(), equalTo(true)),
+                seeThat("Texto de Formulario", FormQuestion.text(),equalTo("Place order") )
+        );
         screenShot();
     }
 
@@ -103,11 +110,22 @@ public class StoreStepdefs {
         );
         screenShot();
     }
+    @Then("verifica el mensaje {string} que confirma la compra")
+    public void verificaElMensajeQueConfirmaLaCompra(String message) {
+        theActorInTheSpotlight().should(
+                seeThat("Texto de Compra", CompletePurchase.text(), equalTo(message))
+        );
+        screenShot();
+    }
 
-    @Then("Finalizo Compra")
-    public void finalizoCompra() {
+    @And("finaliza la compra")
+    public void finalizaLaCompra() {
         theActorInTheSpotlight().attemptsTo(
           ClickOnElement.onTarget(CarritoPage.OK_BUTTON)
         );
+        screenShot();
     }
+
+
+
 }

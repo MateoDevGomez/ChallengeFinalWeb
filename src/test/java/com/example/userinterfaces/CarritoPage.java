@@ -14,4 +14,9 @@ public class CarritoPage {
     public static final Target YEAR_FIELD = Target.the("Input Anio").located(By.id("year"));
     public static final Target SUBMIT_BUTTON = Target.the("Boton Submit").located(By.xpath("//button[@onclick='purchaseOrder()']"));
     public static final Target OK_BUTTON = Target.the("OK Submit").located(By.xpath("//button[@tabindex='1']"));
+
+    public static final Target PURCHASE_TEXT = Target.the("Texto Confirmar Compra").located(By.xpath("/html/body/div[10]/h2"));
+    public static final Target FORM_TEXT = Target.the("Texto Confirmar Compra").located(By.xpath("//*[@id='orderModalLabel']"));
+
+
 }

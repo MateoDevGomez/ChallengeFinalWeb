@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<!-- saved from url=(0148)file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Compra de dos productos en la tienda</title>
+<link rel="shortcut icon" type="image/x-icon" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"><link rel="stylesheet" href="./Compra de dos productos en la tienda_files/bootstrap-icons.css">
+<!-- JQuery -->
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/jquery-1.11.1.min.js.descargar"></script><style type="text/css" id="operaUserStyle"></style><!-- Required Stylesheets -->
+<link href="./Compra de dos productos en la tienda_files/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="./Compra de dos productos en la tienda_files/bootstrap-treeview.min.js.descargar"></script><!-- DataTables -->
+<link type="text/css" href="./Compra de dos productos en la tienda_files/datatables.min.css" rel="stylesheet">
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/datatables.min.js.descargar"></script>
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/time-elapsed-dhms.js.descargar"></script>
+
+<link href="./Compra de dos productos en la tienda_files/bootstrap.min.css" rel="stylesheet">
+<script src="./Compra de dos productos en la tienda_files/bootstrap.min.js.descargar"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="./Compra de dos productos en la tienda_files/core.css">
+<link rel="stylesheet" href="./Compra de dos productos en la tienda_files/link.css">
+<link type="text/css" media="screen" href="./Compra de dos productos en la tienda_files/screen.css" rel="Stylesheet">
+<!--CHART.JS-->
+<script src="./Compra de dos productos en la tienda_files/chart.js.descargar"></script>
+<script src="./Compra de dos productos en la tienda_files/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="./Compra de dos productos en la tienda_files/patternomaly.min.js.descargar"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- JQuery-UI -->
+<link type="text/css" href="./Compra de dos productos en la tienda_files/jquery-ui.min.css" rel="Stylesheet">
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/jquery-ui.min.js.descargar"></script><!-- DataTables -->
+<link type="text/css" href="./Compra de dos productos en la tienda_files/datatables.min.css" rel="stylesheet">
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/datatables.min.js.descargar"></script>
+<script type="text/javascript" src="./Compra de dos productos en la tienda_files/time-elapsed-dhms.js.descargar"></script>
+
+<link href="./Compra de dos productos en la tienda_files/bootstrap.min.css" rel="stylesheet">
+<script src="./Compra de dos productos en la tienda_files/bootstrap.min.js.descargar"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<!-- ImgPreview -->
+<script src="./Compra de dos productos en la tienda_files/imgpreview.full.jquery.js.descargar" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+
+
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/index.html"><img src="./Compra de dos productos en la tienda_files/serenity-logo.png" border="0"></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Serenity Training</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/index.html" class="breadcrumbs">Home</a>
+
+ <!-- inflection.of(breadcrumb.displayName).asATitle()-->
+            &gt; <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/273289710225283b02ef1fba41089d3265aa50bfb1a9c0e74ae4e06c00b591a6.html">Realizar compra en la tienda</a>
+        &gt; Compra de dos productos en la tienda
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li>
+            <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li>
+            <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 14-07-2024 22:08</span>
+    <br style="clear:left">
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tbody><tr>
+                        <td>
+                                <div>
+                                    <h3 class="discreet-story-header">
+                                        <i class="fs-2 bi bi-chat-left-quote title-icon"></i>
+                                        <span class="story-header-title">Realizar Compra En La Tienda </span>
+                                    </h3>
+
+                                </div>
+
+                        </td>
+                        <td valign="top">
+                            <p class="tag">
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/d42bfef3e6b90c4dd439ab52d86352fc74aa696c7f6c63384e90d8f1ece63416.html">Store Test
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/a7ae36fbde848ee0ca741bf9de39c4140a99ec4afb08d8b9fcf5be7f9cc94163.html">Add Prods
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.html">Chrome
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/f55cf301e8f51d63aebeb8bc8dbe880df940586e2a502c7a3e24c2b639523f8f.html">Windows
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html">30 To 60 Seconds
+                                              (Duration)
+                                        </a>
+                                </span>
+                                    <span class="badge example-tag tag-badge" style="background:default;">
+                                    <i class="bi bi-tag-fill"></i>&nbsp;
+                                        <a class="tagLink" style="background:default;" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/59736924e81ea98f655ac8eba7cd96079d8d80131e0c4360daf32a724d0b38a0.html">Chrome, Windows
+                                        </a>
+                                </span>
+                                    <span class="context-icon"><i class="bi bi-browser-chrome" title="Chrome"></i> <i class="bi bi-windows" title="Windows"></i></span>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tbody><tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon fa-2x" title="SUCCESS"></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    Compra de dos productos en la tienda
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+
+
+            <!-- CAST MEMBERS -->
+            <div>&nbsp;</div>
+            <div>
+                <h3 class="discreet-story-header">
+                    <i class="fs-2 bi bi-people large-icon"></i>
+                    <span class="story-header-title">
+                        <a class="btn btn-primary" data-toggle="collapse" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#castDetails" role="button" aria-expanded="true" aria-controls="castDetails">Cast</a>
+                    </span>
+                </h3>
+            </div>
+            <div class="collapse multi-collapse" id="castDetails">
+                <table class="cast">
+                    <tbody><tr>
+                            <td width="100%">
+                                <h4>
+                                    <i class="fs-2 bi bi-person"></i>&nbsp;
+                                    <span>
+                                        <a data-toggle="collapse" href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#abilities-Cliente" aria-expanded="false" aria-controls="abilities">Cliente</a>
+                                        
+                                    </span>
+                                </h4>
+                                <div class="collapse multi-collapse" id="abilities-Cliente">
+                                        <div>
+                                            <span class="cast-description">Cliente can:</span>
+                                            <ul>
+                                                    <li>browse the web</li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    <!-- END CAST MEMBERS -->
+
+
+</div>
+
+
+<div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Given el Cliente ingresa a la pagina web<br>When agrega el primer producto "&lt;PROD1&gt;" al carrito<br>And agrega el segundo producto "&lt;PROD2&gt;" al carrito<br>And se dirige a visualizar el carrito de compras<br>Then comprueba que el producto "&lt;PROD1&gt;" se haya agregado al carrito<br>And comprueba que el producto "&lt;PROD2&gt;" se haya agregado al carrito<br>When ingresa al formulario<br>And ingresa al formulario el nombre "&lt;NAME&gt;", pais "&lt;COUNTRY&gt;", ciudad "&lt;CITY&gt;", tarjeta "&lt;CARD&gt;", mes "&lt;MONTH&gt;", anio "&lt;YEAR&gt;"<br>Then verifica el mensaje "&lt;MESSAGE&gt;" que confirma la compra<br>And finaliza la compra</div>
+
+    </div>
+
+<div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:&nbsp;</h3>
+            <div class="requirementNarrative"></div>
+
+
+            <p class="example-tag">
+            </p>
+
+        <div class="example-table test-report">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Prod1</th>
+                        <th>Prod2</th>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>City</th>
+                        <th>Card</th>
+                        <th>Month</th>
+                        <th>Year</th>
+                        <th>Message</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Samsung galaxy s6</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Iphone 6 32gb</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Mateo Gomez</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Ecuador</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Quito</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">15072107</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">07</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">2024</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html#0">Thank you for your purchase!</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+<div id="tablecontents">
+    <div>
+        <table class="step-table">
+            <tbody><tr class="step-titles">
+                <th width="65">
+                </th>
+                <th class="step-description-column greentext">
+                    Steps
+                </th>
+
+                    <th width="150" class="greentext">Screenshots</th>
+                <th width="130" class="greentext">Outcome</th>
+                <th width="100" class="greentext"><i title="Duration" class="bi bi-stopwatch"></i></th>
+            </tr>
+            <tr class="step-table-separator">
+                <td colspan="5"></td>
+            </tr>
+
+                <tr class="test-SUCCESS">
+
+                    <td width="50" class="step-icon">
+                        <a name="0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0 success-icon bi-caret-down-square" style="margin-left: 20px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0&#39;)" style="display:block;">
+                                <span class="top-level-step">
+                                                1: Compra de dos productos en la tienda ({PROD1=Samsung galaxy s6, PROD2=Iphone 6 32gb, NAME=Mateo Gomez, COUNTRY=Ecuador, CITY=Quito, CARD=15072107, MONTH=07, YEAR=2024, MESSAGE=Thank you for your purchase!})
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=0">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=83">
+                                    <img src="./Compra de dos productos en la tienda_files/62f4df96dddeab9d44e03c2f4c60303a171a00dde0fd220531ed3f07ec61de89.png" href="62f4df96dddeab9d44e03c2f4c60303a171a00dde0fd220531ed3f07ec61de89.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">40s 318ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-0 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Given el Cliente ingresa a la pagina web
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=1">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=5">
+                                    <img src="./Compra de dos productos en la tienda_files/77ee90008f991f267b037c9c9f1d24e21b2fc6238a7a376d38662970fb15d7ee.png" href="77ee90008f991f267b037c9c9f1d24e21b2fc6238a7a376d38662970fb15d7ee.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">6s 371ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-0-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-0-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-0-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-0-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente Inicia la página
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=4">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">5s 057ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-0-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-0-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente opens the browser at https://www.demoblaze.com/
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=3">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">4s 918ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-1"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-1 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                When agrega el primer producto "Samsung galaxy s6" al carrito
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=6">
+                                    <img src="./Compra de dos productos en la tienda_files/77ee90008f991f267b037c9c9f1d24e21b2fc6238a7a376d38662970fb15d7ee.png" href="77ee90008f991f267b037c9c9f1d24e21b2fc6238a7a376d38662970fb15d7ee.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=19">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">6s 985ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-1" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-1-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-1-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente add to cart
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=7">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=12">
+                                    <img src="./Compra de dos productos en la tienda_files/425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" href="425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3s 370ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-1-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-1-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Samsung Galaxy s6 Ref
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=8">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=9">
+                                    <img src="./Compra de dos productos en la tienda_files/872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" href="872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 857ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-1-0-1"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Add to cart
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=10">
+                                    <img src="./Compra de dos productos en la tienda_files/872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" href="872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=11">
+                                    <img src="./Compra de dos productos en la tienda_files/425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" href="425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">553ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-1-1"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente accept alert
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=14">
+                                    <img src="./Compra de dos productos en la tienda_files/425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" href="425a1a5d4053d9e72de59ead61c7176f6f772b31bbf15205ef8ca0801c495085.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=15">
+                                    <img src="./Compra de dos productos en la tienda_files/8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" href="8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 371ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-1-2"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1-2&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-1-2 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-1-2&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente Inicia la página
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=16">
+                                    <img src="./Compra de dos productos en la tienda_files/8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" href="8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=19">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">988ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-1-2" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-1-2-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente opens the browser at https://www.demoblaze.com/
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=17">
+                                    <img src="./Compra de dos productos en la tienda_files/8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" href="8bbcbe9178638c020b82c8fce6008a500729506c62e7cad4a78dfc406f90ca86.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=18">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">857ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-2"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-2 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                And agrega el segundo producto "Iphone 6 32gb" al carrito
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=23">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=36">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">6s 464ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-2" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-2-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-2-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente add to cart
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=24">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=29">
+                                    <img src="./Compra de dos productos en la tienda_files/26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" href="26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3s 247ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-2-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-2-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Iphone 6 32gb Ref
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=25">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=26">
+                                    <img src="./Compra de dos productos en la tienda_files/872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" href="872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 851ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-2-0-1"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Add to cart
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=27">
+                                    <img src="./Compra de dos productos en la tienda_files/872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" href="872fc34993c948b756846daf91178ca07a527628a0069d9b3e2ab66d709bff7f.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=28">
+                                    <img src="./Compra de dos productos en la tienda_files/26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" href="26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">622ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-2-1"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente accept alert
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=31">
+                                    <img src="./Compra de dos productos en la tienda_files/26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" href="26a7c86aa9a15dd89fe74862a4b512ca16c8f52dbcd9469b81644b083e13a118.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=32">
+                                    <img src="./Compra de dos productos en la tienda_files/bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" href="bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">883ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-2-2"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2-2&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-2-2 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-2-2&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente Inicia la página
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=33">
+                                    <img src="./Compra de dos productos en la tienda_files/bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" href="bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=36">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1s 288ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-2-2" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-2-2-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente opens the browser at https://www.demoblaze.com/
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=34">
+                                    <img src="./Compra de dos productos en la tienda_files/bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" href="bdcac80b2aaf64b45c8c637f52d517c3202f327b2457da2f5a30d6f35ad9b680.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=35">
+                                    <img src="./Compra de dos productos en la tienda_files/1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" href="1cfa32bcf1eeb862826a12175fa856af51574dffb46213a1a946b28aae9831be.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 177ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-3"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-3&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-3 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-3&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                And se dirige a visualizar el carrito de compras
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=39">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=44">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2s 888ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-3" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-3-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-3-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-3-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-3-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente Inicia la página cart.html
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=40">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=43">
+                                    <img src="./Compra de dos productos en la tienda_files/19df60ebd49a67cb5263b7be225e14cb3b53c047a7558c99559592449e80b566.png" href="19df60ebd49a67cb5263b7be225e14cb3b53c047a7558c99559592449e80b566.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2s 158ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-3-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-3-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente opens the browser at https://www.demoblaze.com/cart.html
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=41">
+                                    <img src="./Compra de dos productos en la tienda_files/d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" href="d66071d63ea1186eb1c3f79a16decba085911f5ede63f2a8588b490a8d130dd9.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=42">
+                                    <img src="./Compra de dos productos en la tienda_files/19df60ebd49a67cb5263b7be225e14cb3b53c047a7558c99559592449e80b566.png" href="19df60ebd49a67cb5263b7be225e14cb3b53c047a7558c99559592449e80b566.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 665ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-4"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-4&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-4 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-4&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Then comprueba que el producto "Samsung galaxy s6" se haya agregado al carrito
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=49">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2s 063ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-4" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-4-0"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Then cart question should be (true)
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=48">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 280ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-5"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-5&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-5 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-5&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                And comprueba que el producto "Iphone 6 32gb" se haya agregado al carrito
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=52">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1s 424ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-5" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-5-0"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Then cart question should be (true)
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=51">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">741ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-6"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-6&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-6 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-6&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                When ingresa al formulario
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=53">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=62">
+                                    <img src="./Compra de dos productos en la tienda_files/d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" href="d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3s 129ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-6" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-6-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-6-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-6-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-6-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente click on element
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=54">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=57">
+                                    <img src="./Compra de dos productos en la tienda_files/a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" href="a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1s 822ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-6-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-6-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Boton Place Order
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=55">
+                                    <img src="./Compra de dos productos en la tienda_files/c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" href="c233168f66229c65929e810d2652521208a54fc67c7208e0498a49776ef68c5d.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=56">
+                                    <img src="./Compra de dos productos en la tienda_files/a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" href="a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 305ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-6-1"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Then El título del Form es visible should be (true)
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=59">
+                                    <img src="./Compra de dos productos en la tienda_files/a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" href="a745e4660cf3697059d7c0f5b72c5d445ed74fb65c35438f9cf8c1953873146a.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=60">
+                                    <img src="./Compra de dos productos en la tienda_files/f905f2e8e7b1a01f12d24847fcc189ed42a964508c31e0b40b1189470101477d.png" href="f905f2e8e7b1a01f12d24847fcc189ed42a964508c31e0b40b1189470101477d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">428ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-6-2"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Then Texto de Formulario should be 'Place order'
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=61">
+                                    <img src="./Compra de dos productos en la tienda_files/f905f2e8e7b1a01f12d24847fcc189ed42a964508c31e0b40b1189470101477d.png" href="f905f2e8e7b1a01f12d24847fcc189ed42a964508c31e0b40b1189470101477d.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=62">
+                                    <img src="./Compra de dos productos en la tienda_files/d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" href="d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">338ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-7"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-7&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-7 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-7&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                And ingresa al formulario el nombre "Mateo Gomez", pais "Ecuador", ciudad "Quito", tarjeta "15072107", mes "07", anio "2024"
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=65">
+                                    <img src="./Compra de dos productos en la tienda_files/d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" href="d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=82">
+                                    <img src="./Compra de dos productos en la tienda_files/de722bdb4d17db3fb7795b5a832613e8e232cef8d4f669cfe4fead66f508192d.png" href="de722bdb4d17db3fb7795b5a832613e8e232cef8d4f669cfe4fead66f508192d.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">5s 925ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-7" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-7-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-7-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-7-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-7-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente fill out form
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=66">
+                                    <img src="./Compra de dos productos en la tienda_files/d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" href="d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=81">
+                                    <img src="./Compra de dos productos en la tienda_files/1bc82d3960912df6bdeb1a02063d6f0ece1d214aa93d79ed7907b6d7be9e50d9.png" href="1bc82d3960912df6bdeb1a02063d6f0ece1d214aa93d79ed7907b6d7be9e50d9.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">5s 363ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-7-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters 'Mateo Gomez' into Input Nombre
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=67">
+                                    <img src="./Compra de dos productos en la tienda_files/d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" href="d66bab8f960d8ed44645bda8f19b7ff40c5e72b102f98db51a28d0e8a2650caf.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=68">
+                                    <img src="./Compra de dos productos en la tienda_files/6fa7543358e1b502b7f261eeb70829a847feeeec2a3ffa4f6e927c80a8697095.png" href="6fa7543358e1b502b7f261eeb70829a847feeeec2a3ffa4f6e927c80a8697095.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">746ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-1"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters 'Ecuador' into Input Pais
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=69">
+                                    <img src="./Compra de dos productos en la tienda_files/6fa7543358e1b502b7f261eeb70829a847feeeec2a3ffa4f6e927c80a8697095.png" href="6fa7543358e1b502b7f261eeb70829a847feeeec2a3ffa4f6e927c80a8697095.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=70">
+                                    <img src="./Compra de dos productos en la tienda_files/79785fda8aec8a69936c729b5b1c5b0af696699f8c6e76889ad1b48c1a5ba12f.png" href="79785fda8aec8a69936c729b5b1c5b0af696699f8c6e76889ad1b48c1a5ba12f.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">454ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-2"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters 'Quito' into Input Ciudad
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=71">
+                                    <img src="./Compra de dos productos en la tienda_files/79785fda8aec8a69936c729b5b1c5b0af696699f8c6e76889ad1b48c1a5ba12f.png" href="79785fda8aec8a69936c729b5b1c5b0af696699f8c6e76889ad1b48c1a5ba12f.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=72">
+                                    <img src="./Compra de dos productos en la tienda_files/824307cf402466504727de1c57d7dee24ef5f3763d2fb1527cbfa7c472b657e8.png" href="824307cf402466504727de1c57d7dee24ef5f3763d2fb1527cbfa7c472b657e8.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">972ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-3"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters '15072107' into Input Tarjeta
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=73">
+                                    <img src="./Compra de dos productos en la tienda_files/824307cf402466504727de1c57d7dee24ef5f3763d2fb1527cbfa7c472b657e8.png" href="824307cf402466504727de1c57d7dee24ef5f3763d2fb1527cbfa7c472b657e8.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=74">
+                                    <img src="./Compra de dos productos en la tienda_files/3c8cd90dc09ded890d3cf065fd44792667dea819ce5fcdd41f5ff53a64ee1323.png" href="3c8cd90dc09ded890d3cf065fd44792667dea819ce5fcdd41f5ff53a64ee1323.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1s 011ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-4"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters '07' into Input Mes
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=75">
+                                    <img src="./Compra de dos productos en la tienda_files/3c8cd90dc09ded890d3cf065fd44792667dea819ce5fcdd41f5ff53a64ee1323.png" href="3c8cd90dc09ded890d3cf065fd44792667dea819ce5fcdd41f5ff53a64ee1323.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=76">
+                                    <img src="./Compra de dos productos en la tienda_files/924e69295b00bb4757be1c43074074e59b26ef64e2a51eda28f264bf410361f5.png" href="924e69295b00bb4757be1c43074074e59b26ef64e2a51eda28f264bf410361f5.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">509ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-5"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente enters '2024' into Input Anio
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=77">
+                                    <img src="./Compra de dos productos en la tienda_files/924e69295b00bb4757be1c43074074e59b26ef64e2a51eda28f264bf410361f5.png" href="924e69295b00bb4757be1c43074074e59b26ef64e2a51eda28f264bf410361f5.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=78">
+                                    <img src="./Compra de dos productos en la tienda_files/e9b149f7d1da5f064c44208b3faad8c049f3dfea5ef64e35ec362b99a7aaa224.png" href="e9b149f7d1da5f064c44208b3faad8c049f3dfea5ef64e35ec362b99a7aaa224.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">491ms</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-7-0-6"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on Boton Submit
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=79">
+                                    <img src="./Compra de dos productos en la tienda_files/e9b149f7d1da5f064c44208b3faad8c049f3dfea5ef64e35ec362b99a7aaa224.png" href="e9b149f7d1da5f064c44208b3faad8c049f3dfea5ef64e35ec362b99a7aaa224.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=80">
+                                    <img src="./Compra de dos productos en la tienda_files/1bc82d3960912df6bdeb1a02063d6f0ece1d214aa93d79ed7907b6d7be9e50d9.png" href="1bc82d3960912df6bdeb1a02063d6f0ece1d214aa93d79ed7907b6d7be9e50d9.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">472ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-8"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-8&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-8 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-8&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Then verifica el mensaje "Thank you for your purchase!" que confirma la compra
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=85">
+                                    <img src="./Compra de dos productos en la tienda_files/de722bdb4d17db3fb7795b5a832613e8e232cef8d4f669cfe4fead66f508192d.png" href="de722bdb4d17db3fb7795b5a832613e8e232cef8d4f669cfe4fead66f508192d.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=87">
+                                    <img src="./Compra de dos productos en la tienda_files/5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" href="5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1s 084ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-8" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-8-0"></a>
+                            <span style="margin-left: 60px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Then Texto de Compra should be 'Thank you for your purchase!'
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=86">
+                                    <img src="./Compra de dos productos en la tienda_files/5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" href="5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">582ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+                <tr class="test-SUCCESS">
+
+                    <td width="70" class="step-icon">
+                        <a name="0-9"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-9&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-9 success-icon bi-caret-down-square" style="margin-left: 40px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-9&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                And finaliza la compra
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=89">
+                                    <img src="./Compra de dos productos en la tienda_files/5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" href="5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=94">
+                                    <img src="./Compra de dos productos en la tienda_files/62f4df96dddeab9d44e03c2f4c60303a171a00dde0fd220531ed3f07ec61de89.png" href="62f4df96dddeab9d44e03c2f4c60303a171a00dde0fd220531ed3f07ec61de89.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3s 590ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-9" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="90" class="step-icon">
+                        <a name="0-9-0"></a>
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-9-0&#39;)" style="display:block">
+                                <i class="bi imgstepSection0-9-0 success-icon bi-caret-down-square" style="margin-left: 60px; float:left; padding-right:5px"></i>
+                            </a>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onclick="toggleDiv(&#39;stepSection0-9-0&#39;)" style="display:block;">
+                                <span class="nested-step">
+                                                Cliente click on element
+                                        </span>
+                            </a>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=90">
+                                    <img src="./Compra de dos productos en la tienda_files/5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" href="5bebb10530a7bfaa2bc4b49dcf4eb8335ff7d3932a763b0aafb5ab5704457819.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=93">
+                                    <img src="./Compra de dos productos en la tienda_files/78c94b10665d719ddcedee80680cf8ca208307f2aca8b8b3b3448aeac2d2cc6a.png" href="78c94b10665d719ddcedee80680cf8ca208307f2aca8b8b3b3448aeac2d2cc6a.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2s 758ms</span></td>
+                </tr>
+                    <tr>
+                        <td colspan="5">
+                            <table id="stepSection0-9-0" class="step-table-nested" style="">
+                <tbody><tr class="test-SUCCESS">
+
+                    <td width="110" class="step-icon">
+                        <a name="0-9-0-0"></a>
+                            <span style="margin-left: 80px;" class="nested-group-icon"><a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html##beforetable"><i class="bi bi-check-circle-fill success-icon " title="SUCCESS"></i></a>
+                                </span>
+                    </td>
+
+                    <td class="step-description-column">
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                                Cliente clicks on OK Submit
+                                        </span>
+                            <span class="evidence">
+                                </span>
+                        </div>
+                    </td>
+
+                        <td width="160" class="SUCCESS-text">
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=91">
+                                    <img src="./Compra de dos productos en la tienda_files/8887a8efa5033315b4f7d8bf2b5e64678a027e39189110e6d06ff0b8c16a0329.png" href="8887a8efa5033315b4f7d8bf2b5e64678a027e39189110e6d06ff0b8c16a0329.png" class="screenshot" width="48" height="48">
+                                </a>
+                                <i class="bi bi-arrow-right"></i>
+
+                                <a href="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254_screenshots.html#screenshots?screenshot=92">
+                                    <img src="./Compra de dos productos en la tienda_files/78c94b10665d719ddcedee80680cf8ca208307f2aca8b8b3b3448aeac2d2cc6a.png" href="78c94b10665d719ddcedee80680cf8ca208307f2aca8b8b3b3448aeac2d2cc6a.png" class="screenshot" width="48" height="48">
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">2s 306ms</span></td>
+                </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+
+                            </tbody></table>
+                        </td>
+                    </tr>
+            <tr class="test-SUCCESS">
+                    <td colspan="3"></td>
+                <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                <td width="100"><span class="top-level-step"><em>41.32s</em></span></td>
+            </tr>
+
+        </tbody></table>
+    </div>
+</div>
+
+<div id="beforefooter"></div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <span class="version">Serenity BDD version 3.9.8</span>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function toggleDiv(divId) {
+        $("#" + divId).toggle();
+        var $icon = $(".img" + divId);
+        $icon.toggleClass("bi-caret-right-square");
+        $icon.toggleClass("bi-caret-down-square");
+    }
+</script>
+
+
+<script type="text/javascript">
+    //<![CDATA[
+
+    $(document).ready(function () {
+        $('img.screenshot').imgPreview({
+            imgCSS: {
+                width: '500px'
+            },
+            distanceFromCursor: {top: 10, left: -200}
+        });
+    });
+
+    //]]>
+</script>
+<div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img src="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html" style="display: none; "></div>
+<div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+    <img style="width: 200px; display: none; " src="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html"></div>
+<div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+    <img style="height: 200px; opacity: 1; display: none; " src="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html"></div>
+<div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+<div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+
+
+
+<div id="imgPreviewContainer" class="" style="position: absolute; top: 3422px; left: 737px; display: none;"><img src="file:///C:/Users/bateg/Desktop/CF%20Web/ChallengeFinalWeb/target/site/serenity/73616dbe5f1810251cabb2e34638f84f5685c892d2e15e203a57ecbdb7081254.html" style="width: 500px; display: none;"></div></body></html>
