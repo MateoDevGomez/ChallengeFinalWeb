@@ -17,18 +17,19 @@
 
 ### 3. Instrucciones para ejecutar los test
 
-    1. **Acceder a la Carpeta de Recursos de Pruebas**:
+1. **Acceder a la Carpeta de Recursos de Pruebas**:
     - Dirígete a la ruta `src/test/java/com.example/runners` dentro del directorio del proyecto.
 
-    2. **Ejecutar las Pruebas**:
+2. **Ejecutar las Pruebas**:
     - Haz clic en `CucumberTestSuite` para iniciar la ejecución de la automatización.
 
-    3. **Generar y Obtener los Reportes**:
+3. **Generar y Obtener los Reportes**:
     - Al finalizar las pruebas, ejecuta el comando `mvn serenity:aggregate` en la consola para generar un reporte en formato HTML. Si deseas ejecutar automáticamente las pruebas y generar los reportes, utiliza el comando completo `mvn verify`.
 
 
-    4. **Visualizar los Reportes**:
+4. **Visualizar los Reportes**:
     - El enlace al archivo HTML del reporte estará disponible después de ejecutar el comando anterior. En caso de que el enlace no aparezca, ejecuta `mvn clean` seguido de la ejecución de las pruebas nuevamente y finaliza con `mvn verify` para generar el reporte.
+
 
 ### 4. Información adicional
 El driver no se excluyó del proyecto para optimizar la velocidad de ejecución. Si se desea cambiar, dirigirse a la ruta `src/resources/webdriver/windows`.
