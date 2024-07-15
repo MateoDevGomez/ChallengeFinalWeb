@@ -10,7 +10,7 @@ complicaron la obtención de información. Además, se requirieron validaciones 
 integridad del flujo de trabajo. Para abordar estos desafíos, se diseñó una Task específica para gestionar 
 estas situaciones de manera ordenada.
 
--Fue clave comprender que el uso de las Questions en el patrón Screenplay es comparable con las aserciones usadas 
+- Fue clave comprender que el uso de las Questions en el patrón Screenplay es comparable con las aserciones usadas 
 en PageObject. Esta comprensión facilitó la validación de ciertos componentes necesarios para asegurar que el flujo
 de la prueba se ejecute adecuadamente.
 
