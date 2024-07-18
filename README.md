@@ -63,6 +63,8 @@ Las User Interfaces permitieron localizar los elementos a través de targets con
     ## Reportes Serenity
     - Los reportes de Serenity se generarán en formato HTML y se podrán encontrar en la ruta `target/site/serenity/`. En este directorio se encontrará una gran cantidad de documentos HTML. Localice el documento `index.html`, haga clic derecho, busque la opción "Abrir en" u "Open in" y escoja un navegador.
 
+      <img width="328" alt="image" src="https://github.com/user-attachments/assets/10330be0-70cf-4726-840c-a4226676227e">
+
 4. **Visualizar los reportes**:
 Una vez que los reportes hayan sido abiertos en un navegador, se podrán visualizar y navegar por los diferentes archivos HTML que conforman el reporte completo.
 
