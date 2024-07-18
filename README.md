@@ -39,7 +39,7 @@ Las Tasks se encargaron de interactuar directamente con la página web, manipula
 - `NavigateTo`: permite navegar a la página principal o entre páginas
 
 #### Questions
-Las Questions permitieron validar ciertos elementos ya que no realizan cambios de estado, solo extraen información. Estos archivos se encuentran en `src/java/com.example/questions` y tienen nombres como:
+Las Questions permitieron validar ciertos elementos ya que no realizan cambios de estado, solo extraen información. Estos archivos se encuentran en `src/java/com.example/Questions` y tienen nombres como:
 - `CartQuestion`: permite ver si los productos escogidos están en el carrito
 - `CompletePurchase`: extrae información de la alerta de compra para validar que se realizó con éxito
 - `FormQuestion`: valida que el formulario se desplegó
@@ -63,9 +63,9 @@ Las User Interfaces permitieron localizar los elementos a través de targets con
     ## Reportes Serenity
     - Los reportes de Serenity se generarán en formato HTML y se podrán encontrar en la ruta `target/site/serenity/`. En este directorio se encontrará una gran cantidad de documentos HTML. Localice el documento `index.html`, haga clic derecho, busque la opción "Abrir en" u "Open in" y escoja un navegador.
 
-### 6. Visualizar los reportes
+4. **Visualizar los reportes**:
 Una vez que los reportes hayan sido abiertos en un navegador, se podrán visualizar y navegar por los diferentes archivos HTML que conforman el reporte completo.
 
-### 7. Información adicional
+### 6. Información adicional
 El driver no se excluyó del proyecto para optimizar la velocidad de ejecución. Si se desea cambiar, diríjase a la ruta `src/resources/webdriver/windows`.
 
